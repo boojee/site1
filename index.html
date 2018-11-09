@@ -8,12 +8,14 @@
 </head>
 <body>
 	<header>
-		<img src="img/logo.png" class="logo">
-		<nav class="menu">
-			<a href="#m1">WORK</a>
-			<a href="#m2">TEAM</a>
-			<a href="#m3">CONTACT</a>
-		</nav>	
+		<div class="header1">
+			<div class="logo"><img src="img/logo.png"></div>
+				<nav class="menu">
+					<a href="#m1">WORK</a>
+					<a href="#m2">TEAM</a>
+					<a href="#m3">CONTACT</a>
+				</nav>
+			</div>	
 	</header>	
 	<main class="main-content">
 			<div class="block-letus">
@@ -25,26 +27,27 @@
 				<p id="m1">FEATURED WORK</p>
 					<img src="img/rectangle.png" class="rectangle">
 				<p class="text">Here you can find some of our latest works, to see the details of these works<br>just click the thumbnails below.</p>
-				<p class="block-work">	
-					<a class="img1" href="#"><img src="img/fw/img1-yeh.png"></a>
-					<a class="img2" href="#"><img src="img/fw/img2-yeh.png"></a>
-					<a class="img3" href="#"><img src="img/fw/img3-yeh.png"></a>
-				</p>
-				<p class="block-work">
-					<a class="img4" href="#"><img src="img/fw/img4-yeh.png"></a>
-					<a class="img5" href="#"><img src="img/fw/img5-yeh.png"></a>
-					<a class="img6" href="#"><img src="img/fw/img6-yeh.png"></a>
-				</p>
-				<p class="block-work">
-					<a class="img7" href="#"><img src="img/fw/img7-yeh.png"></a>
-					<a class="img8" href="#"><img src="img/fw/img8-yeh.png"></a>
-					<a class="img9" href="#"><img src="img/fw/img9-yeh.png"></a>
-				</p>
+				<div class="block-work">	
+					<div class="img1"><img src="img/fw/img1-yeh.png"></div>
+					<div class="img1"><img src="img/fw/img2-yeh.png"></div>
+					<div class="img1"><img src="img/fw/img3-yeh.png"></div>
+				</div>
+				<div class="block-work">	
+					<div class="img2"><img src="img/fw/img4-yeh.png"></div>
+					<div class="img2"><img src="img/fw/img5-yeh.png"></div>
+					<div class="img2"><img src="img/fw/img6-yeh.png"></div>
+				</div>
+				<div class="block-work">	
+					<div class="img3"><img src="img/fw/img7-yeh.png"></div>
+					<div class="img3"><img src="img/fw/img8-yeh.png"></div>
+					<div class="img3"><img src="img/fw/img9-yeh.png"></div>
+				</div>
 			</div>	
 			<div class="block-team">
 				<p id="m2">TEAM</p>
 				<img src="img/rectangle.png" class="rectangle">
 				<p class="text">We are a hard working group, who's aim is to listen to your problems<br>and to come up with the best solution possible. We follow the lates trends on<br> the web to create custom talierd niche websites.</p>
+				<div class="teammates">
 					<div class="teammate">
 						<img class="teamfoto-1" src="img/teamfoto-1.png">
 						<p class="name">NAME SURNAME</p>
@@ -59,7 +62,7 @@
 						<p class="name">NAME SURNAME</p>
 						<p class="who">Lead Designer</p>
 						<p class="sm-btn">
-							<a class="tw" href="https://twitter.com/><img src="img/sm-twitter.png"></a>
+							<a class="tw" href="https://twitter.com/"><img src="img/sm-twitter.png"></a>
 							<a class="dribbel" href="https://dribbble.com/"><img src="img/sm-dribbbel.png"></a>
 							<a class="in" href="https://www.linkedin.com/"><img src="img/sm-in.png"></a>
 						</p>
@@ -82,22 +85,35 @@
 							<a class="in" href="https://www.linkedin.com/"><img src="img/sm-in.png"></a>
 						</p>
 					</div>
+				</div>
 			</div>
 			<div class="block-contact">
 				<p id="m3">CONTACT</p>
 				<img src="img/rectangle.png" class="rectangle">
-				<div class="left">
-					<p class="text-contact">Where are we located?</p>
-					<img src="img/map.png" class="map">
-				</div>
-				<div class="right">
-					<p class="text-contact">Want to contact us now? Just drop us a line below.</p>
-					<form class="form" action="#" method="post">
-						<p><textarea placeholder="Leave us a message..." name="message" cols="40" rows="10" required></textarea></p>
-						<p><input class="email" type="email" name="email" placeholder="your@mail.com" required></p>
-						<p><button class="submit" type="submit">SEND</button></p>
-					</form>
-					<img src="img/btn-str.png" class="btn-str">
+				<div class="contact">
+					<div class="left">
+						<div class="text-contact-left">
+							<p class="text-contact">Where are we located?</p>
+						</div>
+						<div class="map-left">
+							<img src="img/map.png" class="map">
+						</div>
+					</div>
+					<div class="right">
+						<div class="text-contact-right">
+							<p class="text-contact">Want to contact us now? Just drop us a line below.</p>
+						</div>
+						<div class="form1">
+							<form class="form" action="#" method="post">
+								<p><textarea placeholder="Leave us a message..." name="message" cols="40" rows="10" required></textarea></p>
+								<div class="form2">
+									<p class="input"><input class="email" type="email" name="email" placeholder="your@mail.com" required></p>
+									<p class="submit1"><button class="submit" type="submit">SEND</button></p>
+									<div class="btn-str1"><img src="img/btn-str.png" class="btn-str"></div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>	
 	</main>
